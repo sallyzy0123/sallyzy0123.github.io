@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     #desktop-nav {
         display: none;
     }
@@ -6,10 +6,62 @@
         display: flex;
     }
     #profile {
-        margin-top: 17vh;
+        margin-top: 10vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 0rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        height: 17vh;
+        margin: 0 7rem;
+    }
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    section {
+        margin: 0 7rem;
+    }
+    #profile {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        height: 10vh;
+        margin: 0 3rem;
+    }
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    section {
+        margin: 0 3rem;
+    }
+    #profile {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+    }
+    .section-text-title {
+        margin-bottom: 10px;
     }
 }
