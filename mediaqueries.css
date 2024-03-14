@@ -1,8 +1,4 @@
 @media screen and (max-width: 1000px) {
-    /* nav {
-        height: 10vh;
-        margin: 0 7rem;
-    } */
     #desktop-nav {
         display: none;
     }
@@ -10,12 +6,12 @@
         display: flex;
     }
     #profile {
-        /* margin-top: 10vh; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 0rem;
+        height: 88vh;
     }
 }
 
@@ -34,12 +30,12 @@
         margin: 0 7rem;
     }
     #profile {
-        /* margin-top: 10vh; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 0rem;
+        height: 94vh;
     }
 }
 
@@ -90,17 +86,6 @@
         align-items: center;
         gap: 0rem;
         margin: 10vh 2rem 0 2rem;
-        height: 97vh;
-    }
-    .section_text {
-        font-size: 10px;
-        word-spacing: 4px;
-    }
-    .section-text-title {
-        margin-bottom: 10px;
-        font-size: 30px;
-    }
-    .section-text-p {
-        margin-bottom: 20px;
+        height: 130vh;
     }
 }
