@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="keyframes.css">
+    <script src="https://kit.fontawesome.com/b1e59cf21c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Ying Zhang</div>
+        <div class="nav-end">
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="nav-icons">
+                    <li><a href="https://github.com/sallyzy0123"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/ying-zhang-49947522b/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="mailto:sally_zy@protonmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+            
+        
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ying Zhang</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <div class="menu-icons">
+                    <li><a href="https://github.com/sallyzy0123"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/ying-zhang-49947522b/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="mailto:sally_zy@protonmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_text">
+            <p class="section-text-title">Welcome!</h1>
+            <p class="section-text-p">
+                Hello, I'm Ying. As a 3rd-year IT student, I possess a robust background in software development, and I love to look for creative solutions for web and mobile development issues.
+            </p>
+            <p class="section-text-p">
+                Thrive in collaborative team environments, I am also able to work independently. With a positive mindset and enthusiasm for learning, I passionate about applying the acquired knowledge to reality and challenges.
+            </p>
+        </div>
+        <span class="section_skill"></span>
+    </section>
+    <section id="project">
+        <p class="section-text-title">Projects</h1>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
