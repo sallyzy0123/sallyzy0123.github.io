@@ -43,7 +43,7 @@ const myTags = [
 
 var tagCloud = TagCloud(".section_skill", myTags, {
   // radius in px
-  radius: 350,
+  radius: 300,
 
   // animation speed
   // slow, normal, fast
