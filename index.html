@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="keyframes.css">
     <script src="https://kit.fontawesome.com/b1e59cf21c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
     <nav id="desktop-nav">
@@ -16,8 +17,9 @@
         <div class="nav-end">
             <div>
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#profile">About</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div>
@@ -52,7 +54,7 @@
     </nav>
     <section id="profile">
         <div class="section_text">
-            <p class="section-text-title">Welcome!</h1>
+            <h1 class="section-text-title">Welcome!</h1>
             <p class="section-text-p">
                 Hello, I'm Ying. As a 3rd-year IT student, I possess a robust background in software development, and I love to look for creative solutions for web and mobile development issues.
             </p>
@@ -62,11 +64,344 @@
         </div>
         <span class="section_skill"></span>
     </section>
-    <section id="project">
-        <p class="section-text-title">Projects</h1>
-        <div></div>
-        <p>The projects are works in progress...</p>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+        <div class="project-container">
+            <div class="project-single">
+                <div class="project-title">
+                    <h1 class="project-name">Hello There</h1>
+                    <p class="project-year">2024</p>
+                </div>
+                <div class="section_text">
+                    <p class="project-description">A React Native app empowering parents. It facilitates real-time communication, informative broadcasts, and effortless booking with specialists - empowering them to prioritize their well-being.</p>
+                </div>
+                <div class="project-tech">
+                    <h3 >Tech stack:</h3>
+                    <div class="project-tech-icons">
+                        <a href="https://reactnative.dev/" target="_blank" rel="noreferrer" title="React Native">
+                            <img src="assets/icon-svg/react.svg" alt="React Native Logo">
+                        </a>
+                        <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer" title="NodeJS">
+                            <img src="assets/icon-svg/nodejs.svg" alt="NodeJs Logo">
+                        </a>
+                        <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" title="TypeScript">
+                            <img src="assets/icon-svg/typescript-icon.svg" alt="TypeScript Programming Language Logo">
+                        </a>
+                        <a href="https://socket.io/" target="_blank" rel="noreferrer" title="Socket.io">
+                            <img src="assets/icon-svg/socket.io.svg" alt="Socket io Logo">
+                        </a>
+                        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer" title="MySQL">
+                            <img src="assets/icon-svg/mysql.svg" alt="MySQL Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/sallyzy0123/Hello-There', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://www.youtube.com/watch?v=iFNWCh0tsw0', '_blank')"
+                    >
+                      Demo Video
+                    </button>
+                  </div>
+            </div>
+            <div class="project-single">
+                <div class="project-title">
+                    <h1 class="project-name">LibraryManagementSystem</h1>
+                    <p class="project-year">2024</p>
+                </div>
+                <div class="section_text">
+                    <p class="project-description">A library management system developed in Java and MySQL to manage the book inventory and staff info. Inspired by a YouTube channel, the project is for studying and practicing Java.</p>
+                </div>
+                <div class="project-tech">
+                    <h3 >Tech stack:</h3>
+                    <div class="project-tech-icons">
+                        <a href="https://www.java.com/en/" target="_blank" rel="noreferrer" title="Java">
+                            <img src="assets/icon-svg/java.svg" alt="Java Logo">
+                        </a>
+                        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer" title="MySQL">
+                            <img src="assets/icon-svg/mysql.svg" alt="MySQL Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/sallyzy0123/LibraryManagementSystem', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://www.youtube.com/watch?v=riIQS3DdQu4', '_blank')"
+                    >
+                      Demo Video
+                    </button>
+                  </div>
+            </div>
+            <div class="project-single">
+                <div class="project-title">
+                    <h1 class="project-name">AI-Blaze</h1>
+                    <p class="project-year">2023</p>
+                </div>
+                <div class="section_text">
+                    <p class="project-description">A React web application designed for non-technical users. It empowers users to generate editable HTML and CSS code directly from their hand-drawn wireframes, utilizing the power of AI.</p>
+                </div>
+                <div class="project-tech">
+                    <h3 >Tech stack:</h3>
+                    <div class="project-tech-icons">
+                        <a href="https://react.dev/" target="_blank" rel="noreferrer" title="React">
+                            <img src="assets/icon-svg/react.svg" alt="NodeJs Logo">
+                        </a>
+                        <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer" title="NodeJS">
+                            <img src="assets/icon-svg/nodejs.svg" alt="NodeJs Logo">
+                        </a>
+                        <a href="https://firebase.google.com/" target="_blank" rel="noreferrer" title="Firebase">
+                            <img src="assets/icon-svg/firebase.svg" alt="Firebase Logo">
+                        </a>
+                        <a href="https://docs.github.com/en/actions" target="_blank" rel="noreferrer" title="GitHub Actions">
+                            <img src="assets/icon-svg/github-actions.svg" alt="GitHub Actions Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/EmilSuuronen/AI-Blaze', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/EmilSuuronen/AI-Blaze', '_blank')"
+                    >
+                      Demo Image
+                    </button>
+                  </div>
+            </div>
+            <div class="project-single">
+                <div class="project-title">
+                    <h1 class="project-name">FlaskTranslator</h1>
+                    <p class="project-year">2023</p>
+                </div>
+                <div class="section_text">
+                    <p class="project-description">A Python web app for translating English to Finnish with Flask framework, Transformers Pipeline, and Azure App Service. This project is for studying and practicing Python.</p>
+                </div>
+                <div class="project-tech">
+                    <h3 >Tech stack:</h3>
+                    <div class="project-tech-icons">
+                        <a href="https://www.python.org/" target="_blank" rel="noreferrer" title="Python">
+                            <img src="assets/icon-svg/python.svg" alt="Python Logo">
+                        </a>
+                        <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="noreferrer" title="Flask">
+                            <img src="assets/icon-svg/flask.svg" alt="Flask Logo">
+                        </a>
+                        <a href="https://huggingface.co/" target="_blank" rel="noreferrer" title="Hugging Face">
+                            <img src="assets/icon-svg/hugging-face-icon.svg" alt="Hugging face Logo">
+                        </a>
+                        <a href="https://azure.microsoft.com/en-us" target="_blank" rel="noreferrer" title="Azure">
+                            <img src="assets/icon-svg/microsoft-azure.svg" alt="Azure Logo">
+                        </a>
+                        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer" title="MySQL">
+                            <img src="assets/icon-svg/mysql.svg" alt="MySQL Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/sallyzy0123/FlaskTranslator', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://www.youtube.com/watch?v=NNg_UZjV52w', '_blank')"
+                    >
+                      Demo Video
+                    </button>
+                  </div>
+            </div>
+            <div class="project-single">
+                <div class="project-title">
+                    <h1 class="project-name">MuseumApp</h1>
+                    <p class="project-year">2023</p>
+                </div>
+                <div class="section_text">
+                    <p class="project-description">A sensor-based Android app transforming museum visits into an interactive experience. Users scan QR codes for deeper dives, create personalized favorite galleries, and provide feedback.</p>
+                </div>
+                <div class="project-tech">
+                    <h3 >Tech stack:</h3>
+                    <div class="project-tech-icons">
+                        <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer" title="Kotlin">
+                            <img src="assets/icon-svg/kotlin-icon.svg" alt="Kotlin Logo">
+                        </a>
+                        <a href="https://ktor.io/" target="_blank" rel="noreferrer" title="Ktor">
+                            <img src="assets/icon-svg/ktor-icon.svg" alt="Ktor Logo">
+                        </a>
+                        <a href="https://www.android.com/" target="_blank" rel="noreferrer" title="Android">
+                            <img src="assets/icon-svg/android-icon.svg" alt="Android Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/gromov-ivan/MuseumApp', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/gromov-ivan/MuseumApp', '_blank')"
+                    >
+                      Demo Image
+                    </button>
+                  </div>
+            </div>
+            <div class="project-single">
+                <div class="project-title">
+                    <h1 class="project-name">HSL.V2</h1>
+                    <p class="project-year">2023</p>
+                </div>
+                <div class="section_text">
+                    <p class="project-description">An iOS app extension of the HSL tackling the frustration of missed buses in Finland. Passengers simply mark their location to notify drivers. It supports bus routes, speech recognition, and multi-language.</p>
+                </div>
+                <div class="project-tech">
+                    <h3 >Tech stack:</h3>
+                    <div class="project-tech-icons">
+                        <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer" title="Swift">
+                            <img src="assets/icon-svg/swift.svg" alt="Swift Logo">
+                        </a>
+                        <a href="https://graphql.org/" target="_blank" rel="noreferrer" title="GraphQL">
+                            <img src="assets/icon-svg/graphql.svg" alt="GraphQL Logo">
+                        </a>
+                        <a href="https://developer.apple.com/" target="_blank" rel="noreferrer" title="iOS development">
+                            <img src="assets/icon-svg/ios.svg" alt="iOS development Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/ainaral/HSL.V2', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://www.youtube.com/watch?v=_jLK7M9hLtQ', '_blank')"
+                    >
+                      Demo Video
+                    </button>
+                  </div>
+            </div>
+            <div class="project-single">
+                <div class="project-title">
+                    <h1 class="project-name">Free Cycle</h1>
+                    <p class="project-year">2023</p>
+                </div>
+                <div class="section_text">
+                    <p class="project-description">A React Native app connecting people to share unwanted items and reduce waste. By posting list of items they want to give away for free, other users can browse and claim these items.</p>
+                </div>
+                <div class="project-tech">
+                    <h3 >Tech stack:</h3>
+                    <div class="project-tech-icons">
+                        <a href="https://reactnative.dev/" target="_blank" rel="noreferrer" title="React Native">
+                            <img src="assets/icon-svg/react.svg" alt="React Native Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/sallyzy0123/FAPOC?tab=readme-ov-file', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://users.metropolia.fi/~laurenth/FreeCycle/FreeCycle.html', '_blank')"
+                    >
+                      Demo Video
+                    </button>
+                  </div>
+            </div>
+            <div class="project-single">
+                <div class="project-title">
+                    <h1 class="project-name">Country-list</h1>
+                    <p class="project-year">2023</p>
+                </div>
+                <div class="section_text">
+                    <p class="project-description">a React web application, built with Material UI, showcases detailed info for every country. Explore national flags, populations, regional divisions, and languages spoken - all with a search bar for a seamless browsing experience.</p>
+                </div>
+                <div class="project-tech">
+                    <h3 >Tech stack:</h3>
+                    <div class="project-tech-icons">
+                        <a href="https://react.dev/" target="_blank" rel="noreferrer" title="React ">
+                            <img src="assets/icon-svg/react.svg" alt="React Logo">
+                        </a>
+                        <a href="https://mui.com/" target="_blank" rel="noreferrer" title="MaterialUI">
+                            <img src="assets/icon-svg/material-ui.svg" alt="MaterialUI Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://github.com/sallyzy0123/Country-list', '_blank')"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.open('https://comforting-gaufre-cbb662.netlify.app/', '_blank')"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+            </div>
+        </div>
     </section>
+    <section id="contact">
+        <p>Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <i class="fa-solid fa-envelope"></i>
+                <p><a href="mailto:sally_zy@protonmail.com">Email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-brands fa-linkedin"></i>
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+          </div>
+    </section>
+    <footer>
+        <nav>
+          <div>
+            <ul class="nav-links">
+                <li><a href="#profile">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="nav-icons">
+                <li><a href="https://github.com/sallyzy0123"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ying-zhang-49947522b/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="mailto:sally_zy@protonmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        </nav>
+        <p>Copyright &#169; 2024 Ying Zhang. All Rights Reserved.</p>
+      </footer>
     <script src="script.js"></script>
 </body>
 </html>
