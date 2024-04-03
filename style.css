@@ -295,8 +295,8 @@ img {
   
 .btn-color-1,
 .btn-color-2:hover {
-    background: #868c71;
-    color: white;
+    background: white;
+    color: black;
 }
 
 .btn-color-2 {
@@ -304,7 +304,7 @@ img {
 }
   
 .btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: white 0.1rem solid;
 }
 
 /* CONTACT */
