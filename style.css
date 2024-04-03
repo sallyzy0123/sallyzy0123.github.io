@@ -9,15 +9,15 @@
 body {
     font-family: "DM Sans", sans-serif;
 
-    background: hsla(341, 85%, 77%, 1);
+    background: hsla(242, 69%, 75%, 1);
 
-    background: linear-gradient(135deg, hsla(341, 85%, 77%, 1) 0%, hsla(24, 80%, 81%, 1) 23%, hsla(242, 69%, 75%, 1) 48%, hsla(20, 99%, 71%, 1) 75%, hsla(298, 72%, 63%, 1) 100%);
-    
-    background: -moz-linear-gradient(135deg, hsla(341, 85%, 77%, 1) 0%, hsla(24, 80%, 81%, 1) 23%, hsla(242, 69%, 75%, 1) 48%, hsla(20, 99%, 71%, 1) 75%, hsla(298, 72%, 63%, 1) 100%);
-    
-    background: -webkit-linear-gradient(135deg, hsla(341, 85%, 77%, 1) 0%, hsla(24, 80%, 81%, 1) 23%, hsla(242, 69%, 75%, 1) 48%, hsla(20, 99%, 71%, 1) 75%, hsla(298, 72%, 63%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F693B2", endColorstr="#F5C6A7", GradientType=1 );
+    background: linear-gradient(135deg, hsla(242, 69%, 75%, 1) 8%, hsla(24, 80%, 81%, 1) 35%, hsla(20, 99%, 71%, 1) 64%, hsla(242, 69%, 75%, 1) 92%);
+
+    background: -moz-linear-gradient(135deg, hsla(242, 69%, 75%, 1) 8%, hsla(24, 80%, 81%, 1) 35%, hsla(20, 99%, 71%, 1) 64%, hsla(242, 69%, 75%, 1) 92%);
+
+    background: -webkit-linear-gradient(135deg, hsla(242, 69%, 75%, 1) 8%, hsla(24, 80%, 81%, 1) 35%, hsla(20, 99%, 71%, 1) 64%, hsla(242, 69%, 75%, 1) 92%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9592EB", endColorstr="#F5C6A7", GradientType=1 );
 }
 
 html {
@@ -120,7 +120,8 @@ a:hover {
     transition: all 0.3 ease-in-out;
     z-index: 1;
     border-radius: 5%;
-    background: rgb(254, 157, 108);
+    background: 
+    #cc94d0;
 }
 
 .menu-links a {
@@ -316,6 +317,10 @@ img {
     align-items: center;
     flex-direction: column;
     height: 80vh;
+    background-image: url("assets/working-girl.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: left bottom;
 }
   
 .contact-info-upper-container {
