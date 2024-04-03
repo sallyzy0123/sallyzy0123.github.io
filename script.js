@@ -58,6 +58,6 @@ var tagCloud = TagCloud(".section_skill", myTags, {
   // interact with cursor move on mouse out
   keep: true,
 });
-var colors = ["#F88430", "#FF914D", "#ED7830", "#fC934B"];
+var colors = ["#FFFFFF"];
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 document.querySelector(".section_skill").style.color = random_color;
